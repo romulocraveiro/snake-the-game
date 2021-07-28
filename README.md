@@ -26,7 +26,7 @@
 ## Links 
 
 * [Digital Innovation One](https://digitalinnovation.one/);
-* [Link para a página web (GitHub) deste projeto / Link to this project's webpage](https://github.com/romulocraveiro/snake-the-game);
+* [Link para a página web (GitHub) deste projeto / Link to this project's webpage](https://romulocraveiro.github.io/snake-the-game/);
 * [Free SVG images, where I found the snake image](https://freesvg.org/)
 
 ## Autor / Author
