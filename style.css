@@ -1,0 +1,19 @@
+body{
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    background-image: url(img/forresttrees.png);
+    background-size: cover;
+    /* color: rgb(52, 165, 52); */
+    color: whitesmoke
+}
+
+header{
+    display: flex;
+    margin-top: 10px;
+}
+
