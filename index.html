@@ -4,16 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hungry Snake Game</title>
+    <title>Jogo da cobrinha</title>
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Hungry Snake Game!</h1>
-        <img src="img/yellowsnake.svg" width = "105" alt="Desenho de uma cobra sorridente amarela e vermelha">
+    <header>      
+        <h1>Jogo da cobrinha!</h1>
+        <img src="img/yellowsnake.svg" alt="Desenho de uma cobra sorridente amarela e vermelha" id="cobra">      
     </header>
-    
-    <canvas id="snake" width="512" height="512"></canvas>
+
+    <div id="main">
+        <canvas id="snake" width="512" height="512"></canvas>
+        <div id="instructions">
+        <h2>Use</h2> 
+        <img src="img/arrow-keys.png" alt="Setas do teclado" id="arrows"> <h2>para jogar ;-)</h2>
+        </div>
+        
+    </div>
 </body>
 </html>
+
+<!-- imagens
+Background: https://freesvg.org/forest-scene
+Yellow snake: https://freesvg.org/comic-snake
+Arrow keys: Imagem de TariqMK por Pixabay https://pixabay.com/pt/illustrations/chave-chaves-teclas-de-seta-3860988/
+-->

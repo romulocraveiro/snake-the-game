@@ -1,19 +1,85 @@
-body{
-    height: 95vh;
-    width: 95vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color:white;
-    background-image: url(img/forresttrees.png);
-    background-size: cover;
-    /* color: rgb(52, 165, 52); */
-    color: whitesmoke
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-header{
-    display: flex;
-    margin-top: 10px;
+body {
+  height: 95vh;
+  width: 95vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(img/forresttrees.png);
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  background-color: black;
 }
 
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8%;
+  margin-bottom: 0;
+}
+
+#cobra {
+  width: 15%;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: row;
+  margin-bottom: 5%;
+  margin-left: 28%
+}
+
+#instructions{
+  display: flex;
+  justify-content: left;
+  align-items:center;
+  flex-direction: row;
+  margin-left: 5%;
+  
+ 
+}
+
+#snake{
+  display: flex;
+  justify-content: left;
+  align-items:center;
+  flex-direction: row;
+  
+}
+#arrows {
+  width: 40%;
+  padding: 10px;
+  
+}
+
+h2 {
+  font-size: 20px;
+  padding: 10px;
+}
+
+
+@media screen and (max-width:700px){ /*Condição para que sejam aplicadas as próximas linhas. Caso contrário, volta para as configurações padrão.*/
+  
+  
+  #main{
+      margin-bottom: 20%;
+      margin-left:39%     
+  }
+  
+}
+
+@media screen and (min-width: 1000px){
+  
+  header{
+      width: 50%;
+  }
+}
